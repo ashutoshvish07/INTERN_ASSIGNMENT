@@ -1,10 +1,15 @@
 import "./App.css";
-import List from "./Components/List";
+import Fetsc from "./Components/Fetsc";
+import Input from "./Components/Input";
+import List from './Components/List';
+
 
 function App() {
   return (
     <div className="App">
+      <Input/>
       <List />
+      {/* <Fetsc/> */}
     </div>
   );
 }

@@ -19,7 +19,7 @@ const List = () => {
 
   const getdata = () => {
     axios
-      .get("http://localhost:8080")
+      .get("http://localhost:8081")
       .then((r) => {
         setdata([...r.data]);
       })
@@ -33,7 +33,9 @@ const List = () => {
   }, []);
   console.log(data);
   return (
+    
     <TableContainer>
+
      <Text fontSize='3xl' textAlign={'center'} fontWeight={"bold"} mt={2} mb={2}>Employee Data</Text>
       <Table size='sm' variant='striped' colorScheme='teal'>
       <TableCaption>Employee Data</TableCaption>

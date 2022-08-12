@@ -13,7 +13,7 @@ import {
     Button,
   } from "@chakra-ui/react";
 const Company = ({company}) => {
-    console.log("comp",company)
+    //console.log("comp",company)
     const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <div>

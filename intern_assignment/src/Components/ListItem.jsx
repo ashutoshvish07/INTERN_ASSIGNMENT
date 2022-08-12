@@ -15,8 +15,8 @@ import {
 import Company from "./Company";
 import Address from "./Address";
 const ListItem = ({ item }) => {
-  const { isOpen, onOpen, onClose } = useDisclosure();
-  console.log(item);
+  
+  //console.log(item);
   return (
     <Tr>
       <Td>{item.id}</Td>
@@ -28,8 +28,7 @@ const ListItem = ({ item }) => {
        <Address key={item.id} address={item.address}/>
       </Td>
       <Td>
-         <Company key={item.id} company={item.company}/>
-         
+         <Company key={item.id} company={item.company}/>        
       </Td>
     </Tr>
   );
