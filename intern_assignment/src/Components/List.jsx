@@ -38,7 +38,7 @@ const List = () => {
       <Table size='sm' variant='striped' colorScheme='teal'>
       <TableCaption>Employee Data</TableCaption>
         <Thead>
-          <Tr>
+          <Tr >
             <Th>id</Th>
             <Th>Name</Th>
             <Th>Usernmae</Th>
